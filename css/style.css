@@ -303,5 +303,38 @@ padding: 30px 0;
     padding: 30px 0;
     }
 
+    /*  SLIDER */
+.slider{
+    overflow: hidden;
+    width: 100vw;
+    height: 323px;
+}
+.slider figure{
+    position: relative;
+    width:2578px;
+    margin: 0;
+    left: 0;
+    animation: 80s slider infinite ease-out;
+    animation-fill-mode: both;
+}
+.slider figure img{
+    width:240px;
+    height: 300px;
+
+    margin: 0 7px;
+    padding: 0;
+}
+
+@keyframes slider {
+    0%{
+        left: 0%;
+    }
+    50%{
+        left: -34.5%;
+    }
+    100%{
+        left: 0;
+    }
+}
 
 
